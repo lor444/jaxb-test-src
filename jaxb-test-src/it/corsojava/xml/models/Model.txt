@@ -1,0 +1,16 @@
+
+
+
+Biblioteca
+    autori[] ->  Autore
+                    cognome
+                    nome
+                    dataNascita
+                    opere[]  ->  Libro
+                                    titolo
+                                    isbn
+                                    annoEdizione
+                                    editore     ->  Editore
+                                                        denominazione
+                                                        citta[]      ->    Citta
+                                                                                denominazione
